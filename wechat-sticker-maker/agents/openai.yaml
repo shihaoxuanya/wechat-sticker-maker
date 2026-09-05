@@ -1,0 +1,4 @@
+interface:
+  display_name: "一张图做微信表情包"
+  short_description: "从一张参考图制作高清静态表情、配套素材，并检查规范与整理上传清单"
+  default_prompt: "请使用 $wechat-sticker-maker，根据我提供的参考图制作24款微信静态表情，检查投稿素材并提供逐项上传指导。"

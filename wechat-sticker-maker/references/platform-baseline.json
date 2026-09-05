@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "platform": "wechat",
+  "category": "static_album",
+  "checked_for_submission_on": null,
+  "note": "UNVERIFIED production baseline, not a current official specification.",
+  "sources": [],
+  "rules": [
+    {
+      "id": "album-count",
+      "scope": "album",
+      "field": "count",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "24 is only the default production count; verify allowed counts for the chosen category."
+    },
+    {
+      "id": "album-static",
+      "scope": "album",
+      "field": "static_allowed",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": []
+    },
+    {
+      "id": "copy-limits",
+      "scope": "album",
+      "field": "text_limits",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": []
+    },
+    {
+      "id": "content-policy",
+      "scope": "album",
+      "field": "content_policy",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": []
+    },
+    {
+      "id": "ai-policy",
+      "scope": "album",
+      "field": "ai_policy",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": []
+    },
+    {
+      "id": "main-size",
+      "scope": "main",
+      "field": "size",
+      "kind": "requirement",
+      "value": [
+        240,
+        240
+      ],
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "main-formats",
+      "scope": "main",
+      "field": "formats",
+      "kind": "requirement",
+      "value": [
+        "PNG"
+      ],
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "main-transparent",
+      "scope": "main",
+      "field": "transparent",
+      "kind": "requirement",
+      "value": true,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "main-max_bytes",
+      "scope": "main",
+      "field": "max_bytes",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "main-visual_policy",
+      "scope": "main",
+      "field": "visual_policy",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "thumbnail-size",
+      "scope": "thumbnail",
+      "field": "size",
+      "kind": "requirement",
+      "value": [
+        120,
+        120
+      ],
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "thumbnail-formats",
+      "scope": "thumbnail",
+      "field": "formats",
+      "kind": "requirement",
+      "value": [
+        "PNG"
+      ],
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "thumbnail-transparent",
+      "scope": "thumbnail",
+      "field": "transparent",
+      "kind": "requirement",
+      "value": true,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "thumbnail-max_bytes",
+      "scope": "thumbnail",
+      "field": "max_bytes",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "thumbnail-visual_policy",
+      "scope": "thumbnail",
+      "field": "visual_policy",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "cover-size",
+      "scope": "cover",
+      "field": "size",
+      "kind": "requirement",
+      "value": [
+        240,
+        240
+      ],
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "cover-formats",
+      "scope": "cover",
+      "field": "formats",
+      "kind": "requirement",
+      "value": [
+        "PNG"
+      ],
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "cover-transparent",
+      "scope": "cover",
+      "field": "transparent",
+      "kind": "requirement",
+      "value": true,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "cover-max_bytes",
+      "scope": "cover",
+      "field": "max_bytes",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "cover-visual_policy",
+      "scope": "cover",
+      "field": "visual_policy",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "banner-size",
+      "scope": "banner",
+      "field": "size",
+      "kind": "requirement",
+      "value": [
+        750,
+        400
+      ],
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "banner-formats",
+      "scope": "banner",
+      "field": "formats",
+      "kind": "requirement",
+      "value": [
+        "PNG"
+      ],
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "banner-transparent",
+      "scope": "banner",
+      "field": "transparent",
+      "kind": "requirement",
+      "value": false,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "banner-max_bytes",
+      "scope": "banner",
+      "field": "max_bytes",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "banner-visual_policy",
+      "scope": "banner",
+      "field": "visual_policy",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "chat_icon-size",
+      "scope": "chat_icon",
+      "field": "size",
+      "kind": "requirement",
+      "value": [
+        50,
+        50
+      ],
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "chat_icon-formats",
+      "scope": "chat_icon",
+      "field": "formats",
+      "kind": "requirement",
+      "value": [
+        "PNG"
+      ],
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "chat_icon-transparent",
+      "scope": "chat_icon",
+      "field": "transparent",
+      "kind": "requirement",
+      "value": true,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "chat_icon-max_bytes",
+      "scope": "chat_icon",
+      "field": "max_bytes",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "chat_icon-visual_policy",
+      "scope": "chat_icon",
+      "field": "visual_policy",
+      "kind": "requirement",
+      "value": null,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Working target only; replace with current official evidence for this submission category."
+    },
+    {
+      "id": "icon-compression",
+      "scope": "chat_icon",
+      "field": "compression_threshold_bytes",
+      "kind": "auto_compression",
+      "value": 102400,
+      "status": "unverified",
+      "source_ids": [],
+      "note": "Historical screenshot says files above 100KB are compressed; not proof of a rejection limit."
+    }
+  ]
+}
