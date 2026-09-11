@@ -74,7 +74,7 @@ python wechat-sticker-maker/scripts/sticker_pipeline.py package --project <项�
 
 ## 隐私
 
-本仓库不包含私人聊天截图、榕榕角色素材、账户信息或作者电脑固定路径。生成项目默认保存在使用者指定的本地目录中。
+生成项目默认保存在使用者指定的本地目录中。
 
 ## 测试
 
