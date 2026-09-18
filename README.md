@@ -87,3 +87,5 @@ python -m unittest discover -s wechat-sticker-maker/tests -v
 ## 许可证
 
 [MIT License](LICENSE)
+## 贡献者
+感谢 [rosyrongrong](https://github.com/rosyrongrong) 参与项目共创。
